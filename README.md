@@ -47,3 +47,6 @@ Usuaria promedio: Mujer adulta que busca mayor autonomía sobre su salud
 →  Aspectos negativos: Puede llegar a ser muy complicado interactuar con ilustraciones
 
 ##### Referentes
+Moodboard
+![Diseño sin título](https://github.com/user-attachments/assets/35d35fc4-aac2-47f1-a7ee-b3d63a01865f)
+

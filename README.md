@@ -48,6 +48,7 @@ Usuaria promedio: Camila
 
 ##### Referentes
 Moodboard
+![Diseño sin título (1)](https://github.com/user-attachments/assets/59c16cfe-ca9f-4dda-9beb-42d0573458de)
 
 ###### Foto
 ![15](https://github.com/user-attachments/assets/aaa3f0d1-99d6-4b2a-9f43-d60e209cf012)

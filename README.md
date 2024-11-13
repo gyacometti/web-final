@@ -22,31 +22,30 @@ Usuaria promedio: Camila
 →  Comportamiento: Navega desde su smartphone, busca murales en su área mediante mapas interactivos, y le gusta dejar reseñas o interactuar con otros usuarios.
 
 #### Antecedentes
-1. https://mikematas.com/?ref=godly 
-→ Aspectos positivos: El formato de galería interactiva 
-→ Aspectos negativos: No tiene mucha personalidad, el minimalismo deja una identidad que desear
+1. 
+→ Aspectos positivos:
+→ Aspectos negativos: 
 
-2. https://www.novabenefits.com/?ref=landings.dev
-→ Aspectos positivos: Simplifica la búsqueda de beneficios de salud, destaco 
-→ Aspectos negativos: que los elementos se estén moviendo en todo momento distrae la lectura
+2. 
+→ Aspectos positivos:
+→ Aspectos negativos: 
 
-3. https://www.awwwards.com/sites/mening
-→ Aspectos positivos: Destaco la limpiza del sitio, el elemento de fondo como unificador. Destaco su visualización en modo teléfono.
-→ Aspectos negativos: Se vuelve plano y los elementos gráficos y fotografías quedan cortos
+3. 
+→ Aspectos positivos: 
+→ Aspectos negativos:
 
-4. https://pudding.cool/2024/10/nba-uniforms/
-→  Aspectos positivos: Infografía interactiva, cuando pasa el cursor por encima la opcidad pasa a 100%
-→  Aspectos negativos: Demasiada información, fondo muy ruidoso
+4. 
+→  Aspectos positivos:
+→  Aspectos negativos: 
 
-5. https://saaslandingpage.com/notion-calendar/
-→  Aspectos positivos: Códigos de color para agendar distintas actividades
-→  Aspectos negativos: La cantidad de información puede llegar a ser confusa
+5. 
+→  Aspectos positivos: 
+→  Aspectos negativos: 
 
-6. https://sinteg.isometric.site/sinteg?lang=de
-→  Aspectos positivos: Infografía interactiva, puedes escoger la información categorizada a través de una ilustración
-→  Aspectos negativos: Puede llegar a ser muy complicado interactuar con ilustraciones
+6. 
+→  Aspectos positivos:
+→  Aspectos negativos:
 
 ##### Referentes
 Moodboard
-![Diseño sin título](https://github.com/user-attachments/assets/35d35fc4-aac2-47f1-a7ee-b3d63a01865f)
 

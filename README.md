@@ -2,14 +2,14 @@
 ## Propuesta → Objetivo General
 Facilitar el acceso al arte urbano en Santiago, permitiendo a las personas descubrir y explorar murales en su entorno inmediato.
 
-### Usuarias extremas y usuaria promedio
-Usuaria extrema 1: Ignacio
+### Usuarios extremos y usuario promedio
+Usuario extremo 1: Ignacio
 → Objetivos: Entender qué tipo de murales hay en su barrio porque algunos no le parecen agradables o adecuados. Busca conocer si tienen un valor artístico o simplemente son graffiti.
 → Frustraciones: Dificultad para diferenciar murales artísticos de graffiti vandalista.
 → Características: Hombre de 40 años, trabaja desde casa, vive en un barrio tradicional, poco interesado en el arte urbano pero preocupado por la estética de su comunidad.
 → Comportamiento: Accede ocasionalmente a la web desde su computador o tablet, explora su alrededor de manera superficial.
 
-Usuaria extremo 2: Paula
+Usuario extremo 2: Paula
 → Objetivos: Analizar murales urbanos para estudiar su impacto sociocultural en comunidades locales, con especial interés en la periferia de Santiago.
 → Frustraciones: Información incompleta o mal organizada, falta de contexto histórico o datos sobre los artistas.
 → Características: Mujer de 55 años, profesora de arte, orientada al detalle, usa tecnología frecuentemente pero no es experta, interesada en la cultura urbana y en la documentación académica.

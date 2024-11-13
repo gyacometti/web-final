@@ -50,5 +50,6 @@ Usuaria promedio: Camila
 Moodboard
 
 ###### Foto
-![M Y T - Conchalí (124 de 90)](https://github.com/user-attachments/assets/b4f5cef9-a740-4971-9b83-d9512c343b03)
+![15](https://github.com/user-attachments/assets/aaa3f0d1-99d6-4b2a-9f43-d60e209cf012)
+
 

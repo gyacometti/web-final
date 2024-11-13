@@ -1,6 +1,6 @@
 # web-final
 ## Propuesta → Objetivo General
-Fomentar la prevención ginecológica en mujeres chilenas mediante el acceso a información confiable, recordatorios de exámenes y un seguimiento personalizado, mejorando así su autonomía y capacidad de decisión sobre su salud reproductiva y preventiva.
+Facilitar el acceso al arte urbano en Santiago, permitiendo a las personas descubrir y explorar murales en su entorno inmediato.
 
 ### Usuarias extremas y usuaria promedio
 Usuaria extrema 1:  Mujer con barreras de acceso

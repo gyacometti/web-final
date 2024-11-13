@@ -22,29 +22,29 @@ Usuaria promedio: Camila
 →  Comportamiento: Navega desde su smartphone, busca murales en su área mediante mapas interactivos, y le gusta dejar reseñas o interactuar con otros usuarios.
 
 #### Antecedentes
-1. 
-→ Aspectos positivos:
-→ Aspectos negativos: 
+1. https://www.sarah-bassett.com/
+→ Aspectos positivos: Me gusta el carrusel en movimiento de los proyectos y el minimalismo del resto de la pagína, el fondo y los textos dejan espacio a que luzcan las fotos.
+→ Aspectos negativos: Una vez apretadas las fotos no es tan intuitivo en cómo volver al inicio.
 
-2. 
-→ Aspectos positivos:
-→ Aspectos negativos: 
+2. https://www.brooklynmuseum.org/
+→ Aspectos positivos: Destaco el protagonismo que tienen las fotografías, lo fácil que es navegar la página y sus propuestas.
+→ Aspectos negativos: El único aspecto que cambiaría, sería que abarcara el 100% del espacio horizontalmente para descomprimir la información.
 
-3. 
-→ Aspectos positivos: 
-→ Aspectos negativos:
+3. https://matteogorini.com/?ref=onepagelove
+→ Aspectos positivos: Destaco la presencia de una paleta de color muy precisa y el estilo tipográfico que aplican.
+→ Aspectos negativos: Puede que vea problemas con la jerarquía de las cosas debido a que todo es muy grande.
 
-4. 
-→  Aspectos positivos:
-→  Aspectos negativos: 
+4. https://www.jiwonchong.com/?ref=onepagelove
+→  Aspectos positivos: Landign page muy preciso, destaco el minimalismo y la presencia que tienen las fotografias por lo mismo.
+→  Aspectos negativos: No es intuitivo cómo interactuar con los proyectos mostrados.
 
-5. 
-→  Aspectos positivos: 
-→  Aspectos negativos: 
+5. https://matteroffact.fr/projets
+→  Aspectos positivos: Destaco la forma de scrollear, me gusta la propuesta gráfica de la web
+→  Aspectos negativos: La diagramación dentro de los proyectos podría tener más aire y jerarquía en sus piezas.
 
-6. 
-→  Aspectos positivos:
-→  Aspectos negativos:
+6. https://wearemotto.com/?ref=godly
+→  Aspectos positivos: Destaco el trabajo tipográfico y de jerarquías de la landing page, y el estilo gráfico escogido para la web.
+→  Aspectos negativos: El zoom de las fotografías no es algo que utilizaría, sin embargo, le dan profundidad a la web.
 
 ##### Referentes
 Moodboard

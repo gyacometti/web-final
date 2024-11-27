@@ -1,0 +1,110 @@
+[
+    {
+        "nombre": "Coraje, el Perro Cobarde",
+        "fecha": "1999-2002",
+        "descripcion": "Sigue a Coraje, un perro tímido que vive con sus dueños en un pueblo desolado. A pesar de su naturaleza asustadiza, enfrenta todo tipo de criaturas y fenómenos sobrenaturales para proteger a sus amos. Esta serie es conocida por su mezcla de horror, comedia y surrealismo.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/1.png",
+        "fotos":["coraje-1.png","coraje-2.png","coraje-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Mansión Foster para Amigos Imaginarios",
+        "fecha": "2004-2009",
+        "descripcion": "La historia de Mac, un niño que, al no poder quedarse con su amigo imaginario Bloo, lo lleva a la Mansión Foster, un lugar donde los amigos imaginarios esperan ser adoptados. La serie explora las divertidas y emotivas aventuras de los amigos imaginarios y sus interacciones.",
+        "signo": "ano2000s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/2.png",
+        "fotos":["mansion-1.png","mansion-2.png","mansion-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Hey Arnold!",
+        "fecha": "1996-2004",
+        "descripcion": "Aunque de Nickelodeon, fue transmitida en Cartoon Network en algunos países. La serie sigue a Arnold, un niño con cabeza de balón, y su grupo de amigos mientras enfrentan aventuras y lecciones en una ciudad inspirada en Nueva York. La serie explora temas de amistad, familia y problemas cotidianos.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/3.png",
+        "fotos":["arnold-1.png","arnold-2.png","arnold-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Johnny Bravo",
+        "fecha": "1997-2004",
+        "descripcion": "Sigue a Johnny Bravo, un musculoso pero ingenuo joven con un gran peinado rubio que vive situaciones cómicas en sus intentos de conquistar a las mujeres. Su estilo de comedia física y personajes caricaturescos lo hicieron muy popular.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/4.png",
+        "fotos":["bravo-1.png","bravo-2.png","bravo-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "KND: Los Chicos del Barrio",
+        "fecha": "2002-2008",
+        "descripcion": "Un grupo de cinco niños opera desde su casa en un árbol para luchar contra los adultos y todo lo que represente lo aburrido. La serie es conocida por su creatividad en las misiones y su humor, y explora la lucha de los niños por mantener su libertad.",
+        "signo": "ano2000s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/5.png",
+        "fotos":["barrio-1.png","barrio-2.png","barrio-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Drama Total",
+        "fecha": "2007-presente",
+        "descripcion": "Una serie animada en formato de reality show, donde un grupo de adolescentes compite en desafíos extremos. Parodia el formato de los programas de competencia y reality shows populares, y su humor irreverente atrajo a una audiencia joven.",
+        "signo": "ano2000s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/6.png",
+        "fotos":["drama-1.png","drama-2.png","drama-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Las Sombrías Aventuras de Billy y Mandy",
+        "fecha": "2001-2007",
+        "descripcion": "Billy, un niño ingenuo, y Mandy, una niña cínica, se convierten en los mejores amigos de la Muerte tras ganar una apuesta. La serie mezcla humor oscuro y situaciones absurdas en un tono que parodia el horror.",
+        "signo": "ano2000s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/7.png",
+        "fotos":["mandy-1.png","mandy-2.png","mandy-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Teen Titans",
+        "fecha": "2003-2006",
+        "descripcion":"Sigue las aventuras de un equipo de superhéroes adolescentes liderados por Robin. Cada miembro tiene poderes y personalidades únicas, y juntos enfrentan a enemigos mientras exploran sus relaciones y conflictos personales.",
+        "signo": "ano2000s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/8.png",
+        "fotos":["teen-1.png","teen-2.png","teen-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Ed, Edd y Eddy",
+        "fecha": "1999-2009",
+        "descripcion":"Tres amigos con personalidades opuestas intentan hacer dinero en su vecindario a través de planes absurdos que siempre terminan en desastre. La serie es conocida por su humor físico y su retrato exagerado de la vida suburbana.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/9.png",
+        "fotos":["ed-1.png","ed-2.png","ed-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Las Chicas Superpoderosas",
+        "fecha": "1998-2005",
+        "descripcion":"Bombon, Burbuja y Bellota son tres hermanas con superpoderes que protegen Ciudad Saltadilla de villanos. La serie combina acción, comedia y lecciones de empoderamiento, con personajes memorables y situaciones divertidas.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/10.png",
+        "fotos":["chicas-1.png","chicas-2.png","chicas-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "El Laboratorio de Dexter ",
+        "fecha": "1996-2003",
+        "descripcion":"Dexter es un niño genio con un laboratorio secreto, donde realiza experimentos y construye inventos increíbles. La serie sigue sus enfrentamientos con su molesta hermana Dee Dee y su rival Mandark, en una comedia de ciencia ficción y aventuras.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/11.png",
+        "fotos":["dexter-1.png","dexter-2.png","dexter-3.png"],
+        "github": "https://github.com/gyacometti"
+    },
+    {
+        "nombre": "Tom y Jerry",
+        "fecha": "1992-presente",
+        "descripcion":"Aunque comenzó mucho antes de los 90s, se transmitió en Cartoon Network durante esa década y sigue siendo un clásico. Esta serie animada de cortos cómicos sigue la eterna rivalidad entre Tom, un gato, y Jerry, un ratón, con humor físico y acción sin diálogos.",
+        "signo": "ano1990s",
+        "foto": "https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/img/12.png",
+        "fotos":["tom-1.png","tom-2.png","tom-3.png"],
+        "github": "https://github.com/gyacometti"
+    }
+]

@@ -27,41 +27,92 @@
     <meta name="twitter:description" content="Sitio web de acceso al arte urbano en Santiago, permitiendo a las personas descubrir y explorar murales en su entorno inmediato.">
     <meta name="twitter:image" content="https://muralesporsantiago.cl/metatagfoto.jpg">
 
+   <link rel="icon" href="https://muralesporsantiago.cl/icono.ico" type="image/x-icon">
+
+ <script>
+   function filterImages() {
+            var type = document.getElementById("imageType").value;
+            var items = document.getElementsByClassName("carousel-item");
+            for (var i = 0; i < items.length; i++) {
+                if (type === "all" || items[i].id === type) {
+                    items[i].style.display = "block";
+                } else {
+                    items[i].style.display = "none";
+                }
+            }
+        }
+  </script>
+
   </head>
  <body>
   <div class="big-header">
    <h1>
-    MURALES POR SANTIAGO
+     MURALES POR SANTIAGO
    </h1>
   </div>
   <a class="studio-label" href="#">
-   About
+
+   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 15 10">
+  <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+</svg>
+   Sobre el Proyecto
   </a>
+
+   <div class="about-project-tab">
+      <div class="about-project-content">
+        <p>Aquí puedes poner la descripción sobre el proyecto.</p>
+        <p>Más detalles...</p>
+      </div>
+    </div>
+
+    <div class="menu">
+   <select id="imageType" onchange="filterImages()">
+    <option value="all">
+     Todos 
+    </option>
+    <option value="type1">
+     Realismo
+    </option>
+    <option value="type2">
+     Ilustrado
+    </option>
+    <option value="type3">
+     Abstracto
+    </option>
+   </select>
+  </div>
+
   <div class="carousel">
-   <div class="carousel-item">
-    <img alt="Estacion central" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/1.png" width="400"/>
+   <div class="carousel-item" id="type1">
+      <a href="single.html?data=0">
+         <img alt="Estacion central" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/1.png" width="400"/>
+      </a>
     <div class="overlay">
      <h2>
-      Estación Central
+      ESTACIÓN CENTRAL
      </h2>
      <p>
       Dana Mizq
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Black and white photo of a person holding a pole" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png" width="400"/>
+   <div class="carousel-item" id="type1">
+         <a href="single.html?data=1">
+            <img alt="lo prado" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png" width="400"/>
+         </a>
     <div class="overlay">
      <h2>
-      Lo Prado
+      LO PRADO
      </h2>
      <p>
       Cristóbal Persona
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Person holding a puppet in a dark setting" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/3.png" width="400"/>
+   <div class="carousel-item" id="type2">
+      <a href="single.html?data=3">
+         <img alt="talagante" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/3.png" width="400"/>
+      </a>
     <div class="overlay">
      <h2>
       Talagante
@@ -71,8 +122,10 @@
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 4" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/4.png" width="400"/>
+   <div class="carousel-item" id="type1">
+      <a href="single.html?data=4">
+            <img alt="cerrillos" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/4.png" width="400"/>
+      </a>
     <div class="overlay">
      <h2>
       Cerrillos
@@ -82,8 +135,10 @@
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 5" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/5.png" width="400"/>
+   <div class="carousel-item" id="type2">
+         <a href="single.html?data=5">
+            <img alt="cerro navia" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/5.png" width="400"/>
+         </a>
     <div class="overlay">
      <h2>
       Cerro Navia
@@ -93,19 +148,23 @@
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 6" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/6.png" width="400"/>
+   <div class="carousel-item" id="type3">
+         <a href="single.html?data=6">
+            <img alt="lo barnechea" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/6.png" width="400"/>
+         </a>
     <div class="overlay">
      <h2>
-      Lo Barnehcea
+      Lo Barnechea
      </h2>
      <p>
       Iker Muro
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 7" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/7.png" width="400"/>
+   <div class="carousel-item" id="type2">
+       <a href="single.html?data=7">
+          <img alt="La granja" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/7.png" width="400"/>
+      </a>
     <div class="overlay">
      <h2>
       La Granja
@@ -115,8 +174,10 @@
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 8" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/8.png" width="400"/>
+   <div class="carousel-item" id="type2">
+         <a href="single.html?data=8">
+            <img alt="san miguel" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/8.png" width="400"/>
+         </a>
     <div class="overlay">
      <h2>
       San Miguel
@@ -126,8 +187,10 @@
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 9" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/9.png" width="400"/>
+   <div class="carousel-item" id="type2">
+         <a href="single.html?data=9">
+            <img alt="pac" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/9.png" width="400"/>
+         </a>
     <div class="overlay">
      <h2>
       Pedro Aguirre Cerda
@@ -137,8 +200,10 @@
      </p>
     </div>
    </div>
-   <div class="carousel-item">
-    <img alt="Placeholder image 10" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/10.png" width="400"/>
+   <div class="carousel-item" id="type3">
+         <a href="single.html?data=10">
+            <img alt="huechuraba" height="400" src="https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/10.png" width="400"/>
+         </a>
     <div class="overlay">
      <h2>
       Huechuraba
@@ -151,11 +216,74 @@
   </div>
   <div class="footer">
    <div>
-    <a href="#">
-     Contact
+    <a href="https://www.metro21.cl">
+     Contacto
     </a>
    </div>
   </div>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+
+      <script>
+            const nombre = "MURALES POR SANTIAGO";
+            const autoria = document.querySelector("h1");
+            autoria.innerHTML = nombre;
+
+            const principal = document.querySelector("main");
+            const seleccion = document.querySelector("select");
+
+            async function astros() {
+                const consulta = await fetch("https://raw.githubusercontent.com/gyacometti/dno-096-Ev3/refs/heads/main/datos.json");
+                const data = await consulta.json();
+                console.log(data);
+
+                data.forEach((d, i) => (principal.innerHTML += `
+                    <div class="${d.calle} col mb-3">
+                        <div class="card h-100 text-bg-danger shadow-sm">
+                            <img src="${d.foto}" class="card-img-top" alt="${d.autor}">
+                            <div class="card-body">
+                                <p class="card-text-light">
+                                    <a href="single.html?data=${i}" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover stretched-link">${d.nombre}</a>
+                                </p>
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <small class="text-body-secondary-light">${d.autor}</small>
+                                    <small class="text-body-secondary-light">${d.calle}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`));
+
+                seleccionables();
+            }
+
+            astros().catch((error) => console.error("Error al cargar los datos del JSON:", error));
+
+            function seleccionables() {
+                seleccion.addEventListener("change", (e) => {
+                    document.querySelectorAll(".col").forEach((t) => t.classList.add("d-none"));
+                    const valor = e.target.value;
+                    if (valor !== "todos") {
+                        document.querySelectorAll(`.${valor}`).forEach((t) => t.classList.remove("d-none"));
+                    } else {
+                        document.querySelectorAll(".col").forEach((t) => t.classList.remove("d-none"));
+                    }
+                });
+            }
+
+             function toggleTab() {
+               var tab = document.querySelector('.about-project-tab');
+                var body = document.body;
+
+                  // Si la pestaña está abierta, la cerramos
+                   if (tab.classList.contains('open')) {
+                   tab.classList.remove('open');
+                    body.classList.remove('shifted');
+                  } else {
+                 // Si la pestaña está cerrada, la abrimos
+                   tab.classList.add('open');
+                   body.classList.add('shifted');
+                   }
+                  }
+
+        </script>
  </body>
 </html>

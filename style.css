@@ -41,7 +41,7 @@
         }
         .big-header {
             position: absolute;
-            top: 20px;
+            top: 40px;
             left: 20px;
             font-size: 36px;
             font-weight: bold;
@@ -49,7 +49,7 @@
         .studio-label {
             position: absolute;
             top: 20px;
-            right: 20px;
+            left: 20px;
             font-size: 24px;
             border: 2px solid black;
             padding: 5px 10px;
@@ -57,6 +57,24 @@
             color: black;
         }
         .studio-label:hover {
+            background-color: black;
+            color: white;
+        }
+        .menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .menu select {
+            font-size: 24px;
+            border: 2px solid black;
+            padding: 5px 20px;
+            background: white;
+            color: black;
+            cursor: pointer;
+            width: 200px;
+        }
+        .menu select:hover {
             background-color: black;
             color: white;
         }
@@ -81,13 +99,14 @@
         }
         .carousel-item:hover .overlay {
             display: block;
-        }
+        }    
+
         .overlay {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: white;
+            color: black;
             text-align: center;
             display: none;
         }
@@ -99,3 +118,92 @@
             margin: 5px 0 0;
             font-size: 16px;
         }
+
+        .breadcrumb {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+            border: 2px solid black;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        .breadcrumb a:hover {
+            background-color: black;
+            color: white;
+        }
+        .mural-details {
+         text-align: left;
+         margin-top: 200px;
+         margin-left: 20px;
+         margin-bottom: 10px;
+        }
+
+        .mural-details .detail {
+         font-size: 20px;
+         margin bottom: 10px 0;
+        }
+
+        /* Estilo específico para el carrusel en single.html */
+        .murales-page .carousel {
+         display: flex;
+         overflow-x: auto;
+         margin-top: 40px;  /* Ajusta el margen solo para el carrusel en single.html */
+        width: 100%;
+        }
+
+        .murales-page .carousel .carousel-item {
+         position: relative;
+         width: 33.33%;  /* O ajusta según lo necesites */
+         flex-shrink: 0;
+        }
+
+        .murales-page .carousel .carousel img {
+          width: 100%;
+          height: auto;
+          transition: none;  /* Elimina el efecto de transición */
+        }
+
+        /* Eliminar el efecto de hover que baja la opacidad */
+        .murales-page .carousel .carousel-item:hover img {
+         opacity: 1;
+        }
+
+        .about-project-tab {
+  display: none; /* Ocultamos la pestaña inicialmente */
+  position: fixed; /* Fija la posición */
+  top: 80px; /* Ajusta la distancia desde el top */
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 9999;
+}
+
+.about-project-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-project-tab.open {
+  display: block; /* Muestra la pestaña cuando tiene la clase 'open' */
+}
+
+body.shifted {
+  margin-top: 200px; /* Empuja el contenido del body hacia abajo cuando la pestaña está abierta */
+}
+
+
+
+
+
+    
+
+

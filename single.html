@@ -1,0 +1,113 @@
+<html>
+ <head>
+    
+    <link rel="icon" href="" />
+    <link href="style.css" rel="stylesheet" />
+    <!-- Meta Tags Básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Murales por Santiago</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Murales por Santiago">
+    <meta name="description" content="Sitio web de acceso al arte urbano en Santiago, permitiendo a las personas descubrir y explorar murales en su entorno inmediato.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://muralesporsantiago.cl/">
+    <meta property="og:title" content="Murales por Santiago">
+    <meta property="og:description" content="Sitio web de acceso al arte urbano en Santiago, permitiendo a las personas descubrir y explorar murales en su entorno inmediato.">
+    <meta property="og:image" content="https://muralesporsantiago.cl/metatagfoto.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://muralesporsantiago.cl/">
+    <meta name="twitter:title" content="Murales por Santiago">
+    <meta name="twitter:description" content="Sitio web de acceso al arte urbano en Santiago, permitiendo a las personas descubrir y explorar murales en su entorno inmediato.">
+    <meta name="twitter:image" content="https://muralesporsantiago.cl/metatagfoto.jpg">
+
+   <link rel="icon" href="https://muralesporsantiago.cl/icono.ico" type="image/x-icon">
+
+
+  </head>
+  <body>
+    <div class="breadcrumb">
+        <a href="index.html">Inicio</a>
+    </div>
+
+    <div class="big-header">
+        <h1 id="mural-title"></h1>
+   </div>
+
+    
+    <main>
+        <div id="mural-info" class="mural-details">
+        <div class="detail">
+            <strong>Autor/a</strong> <span id="mural-author"></span>
+        </div>
+        <div class="detail">
+            <strong>Dirección</strong> <span id="mural-address"></span>
+        </div>
+    </div>
+        
+        <div class="murales-page">
+            <div class="carousel" id="carousel-container">
+              <!-- Carrusel de imágenes dinámico -->
+            </div>
+         </div>
+    </main>
+    
+    <script>
+        // Obtener el parámetro 'data' de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const muralIndex = parseInt(urlParams.get('data'), 10);  // Parseamos como número entero
+
+        // Verificar si el índice 'data' es válido
+        if (isNaN(muralIndex) || muralIndex < 0) {
+            alert("No se encontró información del mural.");
+            window.location.href = "index.html";  // Redirigir a la página de inicio si no es válido
+        }
+
+        // Cargar los datos del mural desde el archivo JSON
+        async function cargarMural() {
+            try {
+                const response = await fetch("https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/datos.json");
+                const data = await response.json();
+
+                // Verificar si el índice está dentro del rango válido
+                if (muralIndex >= data.length) {
+                    alert("El mural solicitado no existe.");
+                    window.location.href = "index.html";  // Redirigir si el índice es inválido
+                    return;
+                }
+
+                // Obtener el mural correspondiente
+                const mural = data[muralIndex];
+
+                // Rellenar los elementos con la información del mural
+                document.getElementById("mural-title").innerText = mural.nombre;
+                document.getElementById("mural-author").innerText = mural.autor;
+                document.getElementById("mural-address").innerText = mural.calle;
+
+                // Crear el carrusel de imágenes
+                const carouselContainer = document.getElementById("carousel-container");
+                mural.imagenes.forEach((imgSrc, index) => {
+                    const carouselItem = document.createElement("div");
+                    carouselItem.classList.add("carousel-item");
+                    carouselItem.innerHTML = `
+                        <img src="${imgSrc}" alt="Imagen ${index + 1} del mural ${mural.nombre}" height="400" width="400">
+                    `;
+                    carouselContainer.appendChild(carouselItem);
+                });
+
+            } catch (error) {
+                console.error("Error al cargar los datos:", error);
+                alert("No se pudieron cargar los datos del mural.");
+            }
+        }
+
+        cargarMural();
+    </script>
+  </body>
+</html>

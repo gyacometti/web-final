@@ -1,18 +1,18 @@
 [
     {
-        "nombre": "Estación Central",
+        "nombre": "ESTACIÓN CENTRAL",
         "autor": "Dana Mizq",
         "calle": "Av. Libertador Bernardo Ohiggins 3421",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana2.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana3.png"
         ]
     },
     {
-        "nombre": "Lo Prado",
+        "nombre": "LO PRADO",
         "autor": "Cristóbal Persona",
-        "calle": "Calle 456",
+        "calle": "Waldo Taff 6273",
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana2.png",

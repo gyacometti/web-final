@@ -1,0 +1,94 @@
+[
+    {
+        "nombre": "Estación Central",
+        "autor": "Dana Mizq",
+        "calle": "Av. Libertador Bernardo Ohiggins 3421",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana3.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana3.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    },
+    {
+        "nombre": "Lo Prado",
+        "autor": "Cristóbal Persona",
+        "calle": "Calle 456",
+        "imagenes": [
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+        ]
+    }
+]

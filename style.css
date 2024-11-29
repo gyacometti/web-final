@@ -60,6 +60,27 @@
             background-color: black;
             color: white;
         }
+
+        .big-header h1 {
+    transition: margin 0.3s ease-in-out;
+    margin-top: 40px; /* Margen mínimo inicial */
+}
+
+.carousel {
+    transition: transform 0.3s ease-in-out; /* Cambia la posición sin afectar márgenes */
+    transform: translateY(0); /* Posición inicial */
+}
+
+.collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.collapse-content.active {
+    max-height: 100px; /* Ajusta según el contenido */
+}
+
         .menu {
             position: absolute;
             top: 20px;
@@ -175,31 +196,15 @@
          opacity: 1;
         }
 
-        .about-project-tab {
-  display: none; /* Ocultamos la pestaña inicialmente */
-  position: fixed; /* Fija la posición */
-  top: 80px; /* Ajusta la distancia desde el top */
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  z-index: 9999;
-}
+    #aboutProject {
+        padding-top: 20px;  /* Espacio adicional arriba del contenido */
+        padding-left: 20px; /* Espacio a la izquierda */
+        padding-right: 800px; /* Espacio a la derecha */
+    }
 
-.about-project-content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.about-project-tab.open {
-  display: block; /* Muestra la pestaña cuando tiene la clase 'open' */
-}
-
-body.shifted {
-  margin-top: 200px; /* Empuja el contenido del body hacia abajo cuando la pestaña está abierta */
-}
-
+    #aboutProject p {
+        margin-top: 80px; /* Ajuste en el margen superior del párrafo */
+    }
 
 
 

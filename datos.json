@@ -14,7 +14,7 @@
         "autor": "Cristóbal Persona",
         "calle": "Waldo Taff 6273",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/persona.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/persona1.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/persona2.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/persona3.png"
         ]
@@ -24,8 +24,9 @@
         "autor": "Moff",
         "calle": "Avenida Esmeralda 2097",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mof.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mof2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mof3.png"
         ]
     },
     {
@@ -33,8 +34,9 @@
         "autor": "Cardo Maleza",
         "calle": "Piloto Lazo 99",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/cardo.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/cardo2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/cardo3.png"
         ]
     },
     {
@@ -42,8 +44,9 @@
         "autor": "Maida K",
         "calle": "Huelen 1673",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/maidak.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/maidak2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/maidak3.png"
         ]
     },
     {
@@ -51,8 +54,9 @@
         "autor": "Iker Muro",
         "calle": "Última estación del ascensor Cerro 18",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/muro.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/muro2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/muro3.png"
         ]
     },
     {
@@ -60,8 +64,9 @@
         "autor": "Toto Duarte",
         "calle": "Quinteros esquina Avenida Santa Rosa",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/toto.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/toto2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/toto3.png"
         ]
     },
     {
@@ -69,8 +74,9 @@
         "autor": "Stfi Leighton",
         "calle": "Avenida Departamental Pasaje 1",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/stefi.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/stefi2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/stefi3.png"
         ]
     },
     {
@@ -78,8 +84,9 @@
         "autor": "Anis",
         "calle": "P° Grohnert 5510",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/anis.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/anis2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/anis3.png"
         ]
     },
     {
@@ -87,8 +94,9 @@
         "autor": "Mor",
         "calle": "Pedro Aguirre Cerda 5167",
         "imagenes": [
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2.png",
-            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/2-extra.png"
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mor.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mor2.png",
+            "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mor3.png"
         ]
     }
 ]

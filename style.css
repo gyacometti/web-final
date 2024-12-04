@@ -206,6 +206,13 @@
         margin-top: 80px; /* Ajuste en el margen superior del párrafo */
     }
 
+    #mural-address {
+    color: black; /* Cambia el color del enlace a negro */
+    text-decoration: underline; 
+}
+
+
+
 
 
 

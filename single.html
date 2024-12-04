@@ -43,12 +43,13 @@
 
     
     <main>
-        <div id="mural-info" class="mural-details">
+    <div id="mural-info" class="mural-details">
         <div class="detail">
             <strong>Autor/a</strong> <span id="mural-author"></span>
         </div>
         <div class="detail">
-            <strong>Dirección</strong> <span id="mural-address"></span>
+            <strong>Dirección</strong>
+             <a id="mural-address" target="_blank" rel="noopener noreferrer"></a>
         </div>
     </div>
         
@@ -91,6 +92,21 @@
                 document.getElementById("mural-author").innerText = mural.autor;
                 document.getElementById("mural-address").innerText = mural.calle;
 
+
+                if (mural.calle && mural.calle.texto && mural.calle.link) {
+                    const direccionElemento = document.getElementById("mural-address");
+                    direccionElemento.innerText = mural.calle.texto; // Mostrar el texto de la dirección
+                    direccionElemento.href = mural.calle.link;       // Asignar el enlace correspondiente
+                    direccionElemento.target = "_blank";            // Abrir en una nueva pestaña
+                    direccionElemento.rel = "noopener noreferrer";  // Seguridad para enlaces externos
+                } else {
+                    // Caso en que la dirección no esté disponible
+                    const direccionElemento = document.getElementById("mural-address");
+                    direccionElemento.innerText = "Dirección no disponible";
+                    direccionElemento.removeAttribute("href"); // Elimina cualquier enlace anterior
+                }
+
+
                 // Crear el carrusel de imágenes
                 const carouselContainer = document.getElementById("carousel-container");
                 mural.imagenes.forEach((imgSrc, index) => {
@@ -109,6 +125,7 @@
         }
 
         cargarMural();
+
     </script>
   </body>
 </html>

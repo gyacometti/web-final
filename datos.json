@@ -2,7 +2,10 @@
     {
         "nombre": "ESTACIÓN CENTRAL",
         "autor": "Dana Mizq",
-        "calle": "Av. Libertador Bernardo Ohiggins 3421",
+        "calle": {
+            "texto": "Av. Libertador Bernardo Ohiggins 3421",
+            "link": "https://maps.app.goo.gl/sRsaWwnGa1zSumUX7"
+            },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/dana2.png",
@@ -12,7 +15,10 @@
     {
         "nombre": "LO PRADO",
         "autor": "Cristóbal Persona",
-        "calle": "Waldo Taff 6273",
+        "calle": {
+            "texto": "Waldo Taff 6273",
+            "link": "https://maps.app.goo.gl/uB5SMLNjTLUBfdid6"
+             },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/persona1.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/persona2.png",
@@ -22,7 +28,10 @@
     {
         "nombre": "TALAGANTE",
         "autor": "Moff",
-        "calle": "Avenida Esmeralda 2097",
+        "calle": {
+        "texto": "Avenida Esmeralda 2097",
+        "link": "https://www.google.com/maps/search/?api=1&query=Avenida+Esmeralda+2097"
+        },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mof.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mof2.png",
@@ -32,7 +41,10 @@
     {
         "nombre": "CERRILLOS",
         "autor": "Cardo Maleza",
-        "calle": "Piloto Lazo 99",
+        "calle": {
+            "texto": "Piloto Lazo 99",
+            "link": "https://maps.app.goo.gl/ydrUqr79bea3ZZ4EA"
+            },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/cardo.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/cardo2.png",
@@ -42,7 +54,10 @@
     {
         "nombre": "CERRO NAVIA",
         "autor": "Maida K",
-        "calle": "Huelen 1673",
+        "calle": {
+            "texto": "Huelen 1673",
+            "link":"https://maps.app.goo.gl/XzYyhUEnn7Q5KC469"
+             },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/maidak.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/maidak2.png",
@@ -52,7 +67,10 @@
     {
         "nombre": "LO BARNECHEA",
         "autor": "Iker Muro",
-        "calle": "Última estación del ascensor Cerro 18",
+        "calle": {
+            "texto": "Última estación del ascensor Cerro 18",
+            "link": "https://maps.app.goo.gl/wecBtSmhDsuJq1WM8"
+            },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/muro.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/muro2.png",
@@ -62,7 +80,10 @@
     {
         "nombre": "LA GRANJA",
         "autor": "Toto Duarte",
-        "calle": "Quinteros esquina Avenida Santa Rosa",
+        "calle": {
+            "texto": "Quinteros esquina Avenida Santa Rosa",
+            "link": "https://maps.app.goo.gl/gN3d81Ni5s8BFY5i6"
+            },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/toto.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/toto2.png",
@@ -72,7 +93,10 @@
     {
         "nombre": "SAN MIGUEL",
         "autor": "Stfi Leighton",
-        "calle": "Avenida Departamental Pasaje 1",
+        "calle": {
+           "texto": "Avenida Departamental Pasaje 1",
+           "link": "https://maps.app.goo.gl/Xk3iUZdEyJ4SoWN9A"
+           },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/stefi.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/stefi2.png",
@@ -82,7 +106,10 @@
     {
         "nombre": "PEDRO AGUIRRE CERDA",
         "autor": "Anis",
-        "calle": "P° Grohnert 5510",
+        "calle": {
+            "texto": "P° Grohnert 5510",
+            "link": "https://maps.app.goo.gl/VnW9XCh1xtey9J8a8"
+            },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/anis.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/anis2.png",
@@ -92,7 +119,10 @@
     {
         "nombre": "Huechuraba",
         "autor": "Mor",
-        "calle": "Pedro Aguirre Cerda 5167",
+        "calle": {
+            "texto": "Pedro Aguirre Cerda 5167",
+            "link": "https://maps.app.goo.gl/eHQufFTTmDNBEF16A"
+            },
         "imagenes": [
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mor.png",
             "https://raw.githubusercontent.com/gyacometti/web-final/refs/heads/main/img/mor2.png",
